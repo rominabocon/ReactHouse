@@ -1,0 +1,41 @@
+.success {
+    background-color: #04AA6D;
+    border: none;
+    width: 7%;
+} /* Green */
+.success:hover {
+    background-color: #46a049;
+    border: none;
+}
+.danger {
+    background-color: #f44336;
+    border: none;
+    width: 7%;
+} /* Red */ 
+
+.danger:hover {
+    background: #da190b;
+    border: none;
+}
+.countContainer {
+    display: flex;
+    justify-content: center;
+}
+.contador {
+    margin: 10px;
+}
+
+
+.addProduct {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    height: 2rem;
+    margin: 10px;
+    width: 80%;
+  }
+  
+  .addProduct:hover {
+    background-color: #555555;
+    color: white;
+  }
